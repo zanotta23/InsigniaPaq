@@ -1,0 +1,91 @@
+div {
+    text-align: center;
+
+}
+
+#tabela {
+    height: 90px;
+    color: aliceblue;
+    background-color: rgb(90, 52, 90);
+    border-radius: 5px;
+    width: 700px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-color: black;
+    box-shadow: 5px 2px 2px black;
+
+}
+
+#apagar {
+    width: 100px;
+    color: aliceblue;
+    background-color: purple;
+    border-radius: 20px;
+    Font-family: Franklin Gothic, Arial Bold;
+    cursor: pointer;
+}
+
+#titulo {
+    Font-family: Franklin Gothic, Arial Bold;
+    color: rgb(90, 52, 90);
+    font-size: 50px;
+}
+
+#imputquantidade {
+    border-radius: 20px;
+    width: 470px;
+    font-size: 25px;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.822);
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+}
+
+#botaoenviar {
+    width: 320px;
+    background-color: rgb(90, 52, 90);
+    color: aliceblue;
+    border-radius: 30px;
+    font-size: 20px;
+    Font-family: Franklin Gothic, Arial Bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#bot {
+    margin-top: 25px;
+}
+
+#Quantidade {
+    Font-family: Franklin Gothic, Arial Bold;
+    color: rgb(90, 52, 90);
+
+}
+
+#imputprod {
+    border-radius: 20px;
+    width: 470px;
+    font-size: 25px;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.822);
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bol;
+}
+
+#imputvalor {
+    border-radius: 20px;
+    width: 470px;
+    font-size: 25px;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.822);
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bol;
+}
+
+#quantidadesacola {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+    color: rgb(90, 52, 90);
+    font-size: 18px;
+}
+
+#valorsacola {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+    color: rgb(90, 52, 90);
+    font-size: 18px;
+}
