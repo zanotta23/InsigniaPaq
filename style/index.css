@@ -1,12 +1,18 @@
+:root {
+    --cor-primaria: rgb(90, 52, 90);
+    --fonte-titulo: Franklin Gothic, Arial Bold;
+    --fonte-botao: Franklin Gothic, Arial Bold;
+}
+
 div {
     text-align: center;
 
 }
 
-#tabela {
+table {
     height: 90px;
     color: aliceblue;
-    background-color: rgb(90, 52, 90);
+    background-color: var(--cor-primaria);
     border-radius: 5px;
     width: 700px;
     margin: auto;
@@ -18,18 +24,18 @@ div {
 
 }
 
-#apagar {
+.apagar {
     width: 100px;
     color: aliceblue;
     background-color: purple;
     border-radius: 20px;
-    Font-family: Franklin Gothic, Arial Bold;
+    Font-family: var(--fonte-botao);
     cursor: pointer;
 }
 
-#titulo {
+h1 {
     Font-family: Franklin Gothic, Arial Bold;
-    color: rgb(90, 52, 90);
+    color: var(--cor-primaria);
     font-size: 50px;
 }
 
@@ -43,7 +49,7 @@ div {
 
 #botaoenviar {
     width: 320px;
-    background-color: rgb(90, 52, 90);
+    background-color: var(--cor-primaria);
     color: aliceblue;
     border-radius: 30px;
     font-size: 20px;
@@ -56,13 +62,12 @@ div {
     margin-top: 25px;
 }
 
-#Quantidade {
+.campos-input{
     Font-family: Franklin Gothic, Arial Bold;
-    color: rgb(90, 52, 90);
-
+    color: var(--cor-primaria);
 }
 
-#imputprod {
+.valores-input {
     border-radius: 20px;
     width: 470px;
     font-size: 25px;
@@ -70,22 +75,8 @@ div {
     font-family: Verdana, Geneva, Tahoma, sans-serif, bol;
 }
 
-#imputvalor {
-    border-radius: 20px;
-    width: 470px;
-    font-size: 25px;
-    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.822);
-    font-family: Verdana, Geneva, Tahoma, sans-serif, bol;
-}
-
-#quantidadesacola {
+.informacao-rodape {
     font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
-    color: rgb(90, 52, 90);
-    font-size: 18px;
-}
-
-#valorsacola {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
-    color: rgb(90, 52, 90);
+    color: var(--cor-primaria);
     font-size: 18px;
 }
